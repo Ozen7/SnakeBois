@@ -56,19 +56,18 @@ class Cell {
 }
 
 var snakeArray = [];
-function Snake() {
-  this.x = SIZE+offsetX;
-  this.y = SIZE+offsetY;
-  this.w = SIZE;
-  this.h = SIZE;
-
-
-  this.update = function() {
-
-  }
-
-  this.sketch = function() {
-    fill("yellow");
-    rect(this.x,this.y,this.w,this.h);
+class Snake {
+  constructor() {
+    this.x = SIZE + offsetX;
+    this.y = SIZE + offsetY;
+    this.w = SIZE;
+    this.h = SIZE;
+    this.update = function () {
+    };
+    this.sketch = function () {
+      fill("yellow");
+      rect(this.x, this.y, this.w, this.h);
+    };
   }
 }
+
