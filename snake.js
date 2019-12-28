@@ -38,19 +38,20 @@ function draw() {
 }
 //classes
 var cellArray = [];
-function Cell(x,y,w,h) {
-  this.x = x;
-  this.y = y;
-  this.w = w;
-  this.h = h;
-
-  this.update = function() {
-
-  }
-
-  this.sketch = function() {
-    fill("white");
-    rect(this.x,this.y,this.w,this.h);
+class Cell {
+  constructor(x, y, w, h) {
+    this.x = x;
+    this.y = y;
+    this.w = w;
+    this.h = h;
+    this.update = function () {
+    };
+    this.sketch = function () {
+      fill("white");
+      strokeweight(1);
+      stroke(0);
+      rect(this.x, this.y, this.w, this.h);
+    };
   }
 }
 
