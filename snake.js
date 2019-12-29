@@ -48,7 +48,6 @@ class Cell {
     };
     this.sketch = function () {
       fill("white");
-      strokeweight(1);
       stroke(0);
       rect(this.x, this.y, this.w, this.h);
     };
