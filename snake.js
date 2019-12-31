@@ -52,14 +52,16 @@ class Cell {
     this.type = 0;
     this.update = function () {
 
+      console.log(this.type)
       switch(this.type) {
         case 0:
 
           break;
         case 1:
         //test to move snake head. does not work
-            cellArray[i][j].type = 0;
+            console.log(cellArray[i][j].type)
             if(cellArray[i+1] != undefined) {
+              cellArray[i][j].type = 0;
               cellArray[i+1][j].type = 1;
             }
 
