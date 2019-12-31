@@ -59,7 +59,7 @@ class Cell {
         case 1:
         //test to move snake head. does not work
             cellArray[i][j].type = 0;
-            print(cellArray[i][j].type)
+            console.log(cellArray[i][j].type)
             if(cellArray[i+1] != undefined) {
               cellArray[i+1][j].type = 1;
             }
