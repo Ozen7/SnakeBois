@@ -1,7 +1,7 @@
 //customization
 var ROWS = 20;
 var COLS = 20;
-var SIZE = 100;
+var SIZE = 20;
 var offsetX = window.innerWidth/2-ROWS*SIZE/2;
 var offsetY = window.innerHeight/2-COLS*SIZE/2;
 
