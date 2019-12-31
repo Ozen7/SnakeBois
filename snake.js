@@ -52,6 +52,7 @@ class Cell {
     this.type = 0;
     this.update = function () {
 
+      console.log(this.type)
       switch(this.type) {
         case 0:
 
